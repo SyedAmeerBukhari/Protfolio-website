@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="#hero">My Portfolio</a></h1>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Syed Ameer Hamza</span></h1>
+          <h2>I'm a <span class="typed-text"></span></h2>
+          <p>Welcome to my portfolio website</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="images/profile.jpg" alt="Profile Picture" />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a passionate developer with experience in creating responsive
+              and user-friendly websites and applications. I love solving problems and turning
+              ideas into reality through code.
+            </p>
+            <p>
+              With a background in computer science, I bring a unique
+              perspective to every project I work on.
+            </p>
+            <a href="#" class="btn">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/MediTracker Logo .png" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>MediTracker</h3>
+              <p>
+                A comprehensive Windows Forms application for managing patient
+                medical records, including demographics, medical history, lab
+                results, radiology, procedures, referrals, consultant opinions,
+                and case summaries.
+              </p>
+              <div class="project-links">
+                <!-- <a href="#" class="btn btn-sm">View Live</a> -->
+                <a
+                  href="https://github.com/SyedAmeerBukhari/MediTracker.git"
+                  class="btn btn-sm"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/project2.png" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>Passora</h3>
+              <p>
+                A secure and customizable Flutter-based password manager with
+                encryption, password generation, and strength analysis..
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm">View Live</a>
+                <a href="#" class="btn btn-sm">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/project3.jpg" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>SmartMeet</h3>
+              <p>
+                SmartMeet is an AI-powered meeting assistant that transcribes,
+                summarizes, and extracts actionable insights from meetings in
+                real-time.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm">View Live</a>
+                <a href="#" class="btn btn-sm">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <i class="fab fa-node-js"></i>
+                <p>Node.js</p>
+              </div>
+              <div class="skill">
+                <i class="fas fa-database"></i>
+                <p>MongoDB</p>
+              </div>
+              <div class="skill">
+                <i class="fas fa-server"></i>
+                <p>Express</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skills-grid">
+              <div class="skill">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-npm"></i>
+                <p>npm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>syedameerhamza535@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+92 3180978544</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Wah Cantt, Rawalpindi</p>
+            </div>
+            <div class="social-links">
+              <a
+                href="www.linkedin.com/in/syed-ameer-hamza-buhari"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/SyedAmeerBukhari" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
